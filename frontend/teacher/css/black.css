@@ -1,0 +1,57 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #0e0e0f;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0f;
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-size: cover;
+}
+th,
+td {
+    border: 1px solid #4e4e4e;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: #232327;
+    color: #fd9dff;
+}
+
+#chel {
+    color: #9cffb2;
+}
+
+td.bold {
+    font-weight: bold;
+}
+
+input {
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Comfortaa';
+    background-color: #0e0e0f;
+    color: #fd9dff;
+}
+
+#hum {
+    width: 210px;
+    color: #9cffb2;
+}
+
