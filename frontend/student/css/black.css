@@ -31,10 +31,15 @@ th {
     color: #fd9dff;
 }
 
+
 #chel {
     color: #9cffb2;
 }
 
+#ss {
+    width: 20px;
+    
+}
 td.bold {
     font-weight: bold;
 }
