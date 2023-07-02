@@ -35,6 +35,10 @@ button {
     color: #fd9dff;
 }
 
+.r {
+    color: #ff43b4;
+}
+
 .popup-bg-teacher {
     position: fixed;
     width: 100%;
@@ -54,11 +58,12 @@ button {
 }
 
 .popup-teacher {
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 400px;
-    height: 400px;
+    height: 430px;
     background: #1a1a1a;
     transform: translate(-50%, -50%);
     display: flex;
@@ -74,15 +79,19 @@ button {
 }
 
 .popup-teacher input {
+    color: #9cffb2;
+    background-color: #1a1a1a;
     border: none;
     outline: none;
     height: 25px;
     font-size: 18px;
+    border-bottom: 2px solid #fd9dff;
 }
 
 .popup-teacher label {
     margin-bottom: 25px;
 }
+
 .label_text {
     display: flex;
     justify-content: center;
@@ -90,4 +99,18 @@ button {
 
 .open-popup-teacher {
     cursor: pointer;
+}
+
+.popup-teacher h3 {
+    color: #ff43b4;
+}
+
+.popup-teacher button {
+    width: 350px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: #8b00ff;
+    color: #9cffb2;
+    border-radius: 5px;
 }
