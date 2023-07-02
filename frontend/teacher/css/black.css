@@ -55,3 +55,13 @@ input {
     color: #9cffb2;
 }
 
+.plus {
+    cursor: pointer;
+    height: 44px;
+    width: 44px;
+    border-radius: 80px;
+    border: 3px solid #01b16e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
