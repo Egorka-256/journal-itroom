@@ -13,7 +13,7 @@ openPopup.forEach((button) => {
 document.addEventListener('click', (e) => {
     if (e.target === popupBg) {
         popupBg.classList.remove('active');
-        popup.classList.remove('active'); 
+        popup.classList.remove('active');
     }
 });
 
