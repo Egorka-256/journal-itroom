@@ -15,6 +15,7 @@ button {
 }
 
 .who {
+    height: 80px;
     display: flex;
     justify-content: center;
 }
@@ -27,8 +28,11 @@ button {
     height: 500px;
 }
 
+
+
 .g {
     color: #9cffb2;
+
 }
 
 .v {
@@ -38,6 +42,133 @@ button {
 .r {
     color: #ff43b4;
 }
+
+
+
+.nR {
+    color: #ff073a;
+}
+
+.nO {
+    color: #ff4f00;
+}
+
+.nY {
+    color: #faed27;
+}
+
+.nG {
+    color: #39ff14;
+}
+
+.nGolub {
+    color: #3ef8f5;
+}
+
+.nB {
+    color: #5555ff;
+}
+
+.nV {
+    color: #bc13fe;
+}
+
+
+
+.sign_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.sign_in button {
+    cursor: pointer;
+    background-color: black;
+    border-color: 2px solid #8b00ff;
+}
+
+.popup-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.popup-bg.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.popup {
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 750px;
+    height: 480px;
+    background: #1a1a1a;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.popup.active {
+    transform: translate(-50%, -50%) scale(1); 
+    transition: 0.5s all;
+}
+
+.popup-structure {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup-but {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 90px;
+}
+
+.popup-but button {
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: #8b00ff;
+    color: #9cffb2;
+}
+
+.txt {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.popup-obj {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-bg input {
+    color: #9cffb2;
+    background-color: #1a1a1a;
+    border: none;
+    outline: none;
+    height: 25px;
+    font-size: 18px;
+    border-bottom: 2px solid #fd9dff;
+}
+
+/* Образец */
 
 .popup-bg-teacher {
     position: fixed;
@@ -114,3 +245,76 @@ button {
     color: #9cffb2;
     border-radius: 5px;
 }
+
+
+
+.popup-bg-student {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.popup-bg-student.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.popup-student {
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 430px;
+    background: #1a1a1a;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.popup-student.active {
+    transform: translate(-50%, -50%) scale(1); 
+    transition: 0.5s all;
+}
+
+.popup-student input {
+    color: #9cffb2;
+    background-color: #1a1a1a;
+    border: none;
+    outline: none;
+    height: 25px;
+    font-size: 18px;
+    border-bottom: 2px solid #fd9dff;
+}
+
+.popup-student label {
+    margin-bottom: 25px;
+}
+
+.open-popup-student {
+    cursor: pointer;
+}
+
+.popup-student h3 {
+    color: #ff43b4;
+}
+
+.popup-student button {
+    width: 350px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: #8b00ff;
+    color: #9cffb2;
+    border-radius: 5px;
+} 
